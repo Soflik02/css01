@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@1,500 & display=swap');
+
+body {
+    background: #e6e6fa;
+    color: #000000;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    /*font: normal 16 'Roboto', sans-serif;*/
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: gray;
+}
+
+.ava {
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #c0c0c0;
+}
+
+#foto {
+    border-radius: 50%;
+}
+
+.info p {
+    color: darkgray;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    /*text-transform: capitalize;*/
+    /*letter-spacing: 16px;
+    /*word-spacing: 5px;*/
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info {
+    text-align: center;
+    display: block;
+    }
+}
+
+.info-text {
+    margin-left: 20px;
+}
+
+  /*Box model*/
+/*.social {
+    background: #ff6347;*/
+    /*padding:15px;*/
+    /*padding: 15px 30px;*/
+    /*padding: 10px 15px 20px 25px*/;
+    /*padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    margin: 15px;
+    
+    border: 5px solid #6a5acd;
+    border-bottom-style: double;
+    border-top-width: 16px;
+    border-left-color: aqua;*/
+}
+
+.conteiner {
+    max-width: 90%
+    margin: auto;
+    padding-top: 30px;;
+}
+
+/*.box-model > div {
+    background: #000;
+    height: 100px;
+    width: 25%;
+    float: left;
+    border: 3px solid red;
+    box-sizing: border-box;
+}*/
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+   
+/*.card {
+    padding: 15px 20px;
+    background: lightpink;
+    margin-bottom: 10px;
+    border-radius: 10px;*/
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+.list {
+    padding: 0px 20px;
+}
+
+.list li {
+    color: crimson;
+    margin-bottom: 15px;
+    border-bottom: 1px gray solid;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+       td:nth-child(3) {
+    color: gray;
+}
+
+/*.table tr:nth-child(odd) {
+    background: deeppink;
+}*/
+
+.link-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: darkgray;
+}
+
+.form-group input,
+.form-group input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.rov > .form-group {
+    width: 50%;
+}
+
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+
+.btn {
+    background: #c0c0c0;
+    padding: 5px 10px;
+    font: inherit;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/*Position*/
+
+/*.position {
+    position: relative;
+    border: 2px solid black;
+    margin-bottom: 40px;
+    padding: 30px;
+    height: 300px;
+}
+
+.box {
+    bottom: 0px;
+    position: fixed;
+    bottom: 40px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background: lightcoral;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}*/
